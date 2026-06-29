@@ -20,6 +20,9 @@ El estudio trabaja con **NSL-KDD**, **CICIDS2018** y **UNSW-NB15** y su propósi
 <p align="center">
   <img src="./assets/02-level-2-moe.png" width="900px" alt="Interfaz Nivel 2 del sistema IDS-ML con módulo MoE"/>
 </p>
+<p align="center">
+  <img src="./assets/ejemplo-puntuacion-detectad.png" width="900px" alt="Resultados interfaz Nivel 2 del sistema IDS-ML con módulo MoE"/>
+</p>
 
 ---
 
