@@ -1,0 +1,39 @@
+{
+    "svc_best_clf_model.pkl": {
+        "description": "El modelo Support Vector Classifier (SVC) busca separar las clases con el margen más amplio.",
+        "interpretation": "Predicción basada en vectores de soporte. Es útil para datos con una separación clara entre clases.",
+        "example": "Para las probabilidades {probabilities}, el modelo asigna {prob_0}% a la clase '0' y {prob_1}% a la clase '1'.",
+        "explanation": "El modelo 'svc_best_clf_model.pkl' predijo el valor {prediction}. Las probabilidades asociadas son: {probabilities}. Esto significa que el modelo asigna una probabilidad de {prob_0} al valor '0' y una probabilidad de {prob_1} al valor '1'."
+    },
+    "xgb_model.pkl": {
+        "description": "El modelo XGBoost se basa en boosting para mejorar iterativamente los resultados.",
+        "interpretation": "Utiliza árboles de decisión como base y ajusta los errores en cada iteración.",
+        "example": "Para las probabilidades {probabilities}, asigna {prob_0}% a la clase '0' y {prob_1}% a la clase '1'.",
+        "explanation": "El modelo 'XGB_model.pkl' predijo el valor {prediction}. Las probabilidades asociadas son: {probabilities}. Esto significa que el modelo asigna una probabilidad de {prob_0} al valor '0' y una probabilidad de {prob_1} al valor '1'."
+    },
+    "logistic_regression_model.pkl": {
+        "description": "Modelo de regresión logística para tareas de clasificación binaria.",
+        "interpretation": "Produce probabilidades entre 0 y 1 para cada clase. Se usa un umbral (generalmente 0.5) para tomar decisiones de clasificación.",
+        "example": "Probabilidades: {probabilities}. Esto indica que la clase 0 tiene {prob_0}% y la clase 1 tiene {prob_1}%.",
+        "explanation": "El modelo 'logistic_regression_model.pkl' predijo el valor {prediction}. Las probabilidades asociadas son: {probabilities}."
+    },
+    "xgb_model_bin_cicids2018_cicids2018": {
+        "description": "Versión binaria de XGBoost entrenada en CICIDS 2018.",
+        "interpretation": "Clasifica tráfico benigno/malicioso.",
+        "example": "Probabilidades: {probabilities}",
+        "explanation": "El modelo 'XGB_model_bin_cicids2018_cicids2018' predijo {prediction} con {probabilities}."
+        },
+
+    "nsl-kdd": {
+        "description": "Conjunto de características para detección de intrusos.",
+        "interpretation": "Incluye parámetros como duración, bytes enviados, y tipo de protocolo.",
+        "example": "Características: duration, protocol_type, service, flag, src_bytes, dst_bytes, etc."
+    },
+    "prevención": {
+        "description": "Acciones sugeridas basadas en las predicciones del modelo.",
+        "normal": "No se requieren acciones adicionales, todo está en orden.",
+        "alerta": "Se recomienda investigar y tomar medidas preventivas."
+    },
+    "cicids": {},
+    "unsw": {}
+}
