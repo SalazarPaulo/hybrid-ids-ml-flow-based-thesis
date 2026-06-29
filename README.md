@@ -90,7 +90,7 @@ Los valores corresponden a ejecuciones concretas del proyecto y deben interpreta
 | UNSW-NB15 | 66.17% | Línea base que requiere ajuste y evaluación adicional. |
 
 <p align="center">
-  <img src="./assets/readme/07-unsw-roc-auc.png" width="850px" alt="ROC-AUC por modelo sobre UNSW-NB15"/>
+  <img src="./assets/07-unsw-roc-auc.png" width="850px" alt="ROC-AUC por modelo sobre UNSW-NB15"/>
 </p>
 
 ---
@@ -115,7 +115,7 @@ IDS-ML-Thesis/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── assets/readme/
+├── assets/
 ├── src/Container/
 │   ├── extensions/Auto/
 │   ├── extensions/Queue/
