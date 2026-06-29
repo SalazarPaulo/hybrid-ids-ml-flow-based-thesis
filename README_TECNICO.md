@@ -18,7 +18,7 @@
 El estudio trabaja con **NSL-KDD**, **CICIDS2018** y **UNSW-NB15** y su propósito es analizar de forma reproducible el comportamiento de distintos modelos de Inteligencia Artificial frente a tráfico benigno y malicioso, y contrastar sus detecciones con **Snort**, **Suricata** y **Zeek**.
 
 <p align="center">
-  <img src="./assets/readme/02-level-2-moe.png" width="900px" alt="Interfaz Nivel 2 del sistema IDS-ML con módulo MoE"/>
+  <img src="./assets/02-level-2-moe.png" width="900px" alt="Interfaz Nivel 2 del sistema IDS-ML con módulo MoE"/>
 </p>
 
 ---
@@ -190,7 +190,7 @@ Home
 ### Nivel 1 · Captura y extracción de características
 
 <p align="center">
-  <img src="./assets/readme/01-level-1-captura.png" width="900px" alt="Nivel 1 con controles de captura, tabla de alertas y características extraídas"/>
+  <img src="./assets/01-level-1-captura.png" width="900px" alt="Nivel 1 con controles de captura, tabla de alertas y características extraídas"/>
 </p>
 
 Este nivel presenta los controles para iniciar, detener y finalizar una captura. La interfaz dispone de una tabla de **alertas detectadas** y otra para las **características extraídas**, como hora, IP de origen, IP de destino, protocolo y tamaño.
@@ -200,7 +200,7 @@ Este nivel presenta los controles para iniciar, detener y finalizar una captura.
 ### Nivel 2 · MoE y colas de prioridad
 
 <p align="center">
-  <img src="./assets/readme/02-level-2-moe.png" width="900px" alt="Nivel 2 con selección de dataset, riesgo de intrusión, resultados MoE y probabilidades por modelo"/>
+  <img src="./assets/02-level-2-moe.png" width="900px" alt="Nivel 2 con selección de dataset, riesgo de intrusión, resultados MoE y probabilidades por modelo"/>
 </p>
 
 El Nivel 2 permite seleccionar el dataset experimental y ejecutar el flujo de **MoE + Queues**. La interfaz muestra:
@@ -215,7 +215,7 @@ El Nivel 2 permite seleccionar el dataset experimental y ejecutar el flujo de **
 ### Nivel 3 · Módulo NLP
 
 <p align="center">
-  <img src="./assets/readme/03-level-3-nlp.png" width="900px" alt="Nivel 3 con interfaz de chatbot NLP, carga de GPT-2 y evaluación"/>
+  <img src="./assets/03-level-3-nlp.png" width="900px" alt="Nivel 3 con interfaz de chatbot NLP, carga de GPT-2 y evaluación"/>
 </p>
 
 El módulo NLP plantea una interfaz para cargar el modelo, iniciar el chatbot, consultar evaluaciones y enviar preguntas. Su propósito es acompañar la detección con una capa de explicación o consulta en lenguaje natural.
@@ -225,7 +225,7 @@ El módulo NLP plantea una interfaz para cargar el modelo, iniciar el chatbot, c
 ### Terminal de orquestación
 
 <p align="center">
-  <img src="./assets/readme/04-terminal-orquestacion.png" width="900px" alt="Terminal de la interfaz mostrando ejecución de calibración, autómata, MoE y colas"/>
+  <img src="./assets/04-terminal-orquestacion.png" width="900px" alt="Terminal de la interfaz mostrando ejecución de calibración, autómata, MoE y colas"/>
 </p>
 
 La terminal registra el avance de la orquestación. La captura evidencia la ejecución secuencial de **Calibración y Predicción**, **Autómata**, **Mixture of Experts (MoE)** y **Teoría de Colas**.
@@ -236,11 +236,11 @@ La terminal registra el avance de la orquestación. La captura evidencia la ejec
 
 | Nivel 1 | Nivel 2 |
 |---|---|
-| <img src="./assets/readme/01-level-1-captura.png" width="430px" alt="Nivel 1"/> | <img src="./assets/readme/02-level-2-moe.png" width="430px" alt="Nivel 2"/> |
+| <img src="./assets/01-level-1-captura.png" width="430px" alt="Nivel 1"/> | <img src="./assets/02-level-2-moe.png" width="430px" alt="Nivel 2"/> |
 
 | Nivel 3 | Terminal |
 |---|---|
-| <img src="./assets/readme/03-level-3-nlp.png" width="430px" alt="Nivel 3"/> | <img src="./assets/readme/04-terminal-orquestacion.png" width="430px" alt="Terminal"/> |
+| <img src="./assets/03-level-3-nlp.png" width="430px" alt="Nivel 3"/> | <img src="./assets/04-terminal-orquestacion.png" width="430px" alt="Terminal"/> |
 
 ---
 
@@ -267,7 +267,7 @@ La terminal registra el avance de la orquestación. La captura evidencia la ejec
 | Ensamble | Stacking y artefactos de mezcla de expertos (MoE). |
 | Priorización | Ordenamiento de salidas MoE por `score` o `confidence`. |
 
-El archivo `src/Container/nivel_2/models/README.txt` describe además un uso académico de Optuna, algoritmo genético y algoritmo clonal. La disponibilidad efectiva de esos entrenadores depende de los archivos fuente y artefactos que acompañen la versión publicada.
+El archivo `src/Container/nivel_2/models.txt` describe además un uso académico de Optuna, algoritmo genético y algoritmo clonal. La disponibilidad efectiva de esos entrenadores depende de los archivos fuente y artefactos que acompañen la versión publicada.
 
 ---
 
@@ -356,19 +356,19 @@ Las tablas resumen los mejores resultados de **F1-score** encontrados en la secc
 ### Matriz de confusión apilada — NSL-KDD
 
 <p align="center">
-  <img src="./assets/readme/05-nslkdd-confusion.png" width="900px" alt="Matriz de confusión apilada por modelo sobre NSL-KDD"/>
+  <img src="./assets/05-nslkdd-confusion.png" width="900px" alt="Matriz de confusión apilada por modelo sobre NSL-KDD"/>
 </p>
 
 ### Matriz de confusión apilada — UNSW-NB15
 
 <p align="center">
-  <img src="./assets/readme/06-unsw-confusion.png" width="900px" alt="Matriz de confusión apilada por modelo sobre UNSW-NB15"/>
+  <img src="./assets/06-unsw-confusion.png" width="900px" alt="Matriz de confusión apilada por modelo sobre UNSW-NB15"/>
 </p>
 
 ### ROC-AUC por modelo — UNSW-NB15
 
 <p align="center">
-  <img src="./assets/readme/07-unsw-roc-auc.png" width="900px" alt="ROC-AUC por modelo sobre UNSW-NB15"/>
+  <img src="./assets/07-unsw-roc-auc.png" width="900px" alt="ROC-AUC por modelo sobre UNSW-NB15"/>
 </p>
 
 ---
