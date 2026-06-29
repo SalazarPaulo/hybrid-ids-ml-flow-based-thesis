@@ -15,6 +15,21 @@
   <img src="./assets/02-level-2-moe.png" width="850px" alt="Interfaz del Nivel 2 con resultados de mezcla de expertos"/>
 </p>
 
+Enlaces a la carpeta unsw on sus archivos, resultados y códigos: https://drive.google.com/drive/folders/1OD5cfmZKSf5iako1LNuRwDS7rlsNxwrY?usp=sharing
+
+Enlaces a la carpeta nslkdd on sus archivos, resultados y códigos: 
+https://drive.google.com/drive/folders/1Qq1M1CJxjA4JDdHjdSZclWlm1LJvnX9T?usp=sharing
+
+
+Enlaces a los resultados:
+https://drive.google.com/drive/folders/168UiTUQzhmhvOipWlKsMJM7MXeX0PuAQ?usp=sharing
+
+Enlace al contenido de la carpeta models de src con los modelos:
+https://drive.google.com/drive/folders/1LcNJxVrMkrmL4ieCrLBSkYZfpF2ylvAq?usp=sharing
+
+Enlace al contenido completo de jsons de src/container:
+https://drive.google.com/drive/folders/1D-THIJ0CMUViyTwsywYmmCtq3XbBgpvn?usp=sharing
+
 ---
 
 ## ✨ Qué incluye
