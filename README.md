@@ -12,7 +12,7 @@
 **IDS-ML Thesis** es un sistema experimental para detectar y analizar intrusiones en tráfico de red, este integra preprocesamiento, clasificación con Machine Learning, calibración de probabilidades, priorización de alertas y correlación entre modelos ML, Snort, Suricata y Zeek.
 
 <p align="center">
-  <img src="./assets/readme/02-level-2-moe.png" width="850px" alt="Interfaz del Nivel 2 con resultados de mezcla de expertos"/>
+  <img src="./assets/02-level-2-moe.png" width="850px" alt="Interfaz del Nivel 2 con resultados de mezcla de expertos"/>
 </p>
 
 ---
